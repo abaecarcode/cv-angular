@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+
+.bg-custom {
+  background-color: #f8f9fa;
+  width: 300px;
+}
