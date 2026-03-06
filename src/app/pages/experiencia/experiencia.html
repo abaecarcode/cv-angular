@@ -1,14 +1,40 @@
-<div class="container mt-4">
-  <h2 class="mb-4">Experiencia</h2>
-  <ul class="list-group">
-    <li class="list-group-item">
-      <strong>Artesanos Mendez</strong> - Encargado de zona
-    </li>
-    <li class="list-group-item">
-      <strong>Jimenez Maña</strong> - Recepción, Organización y derivación de material
-    </li>
-  </ul>
+<div class="container py-5 animate-fade-in">
+  <div class="d-flex justify-content-between align-items-center mb-5">
+    <h1 class="display-5 mb-0">Experiencia Profesional</h1>
+    <a [routerLink]="['/']" class="btn-secondary-premium">← Volver</a>
+  </div>
+
+  <div class="row g-4">
+    <!-- Item 1 -->
+    <div class="col-12">
+      <div class="glass-card p-4">
+        <div class="d-flex justify-content-between align-items-start mb-3">
+          <div>
+            <h3 class="mb-1">Encargado de zona</h3>
+            <p class="text-primary fw-600 mb-0">Artesanos Mendez</p>
+          </div>
+          <span class="badge-tech">Trayectoria</span>
+        </div>
+        <p class="text-muted">
+          Gestión y supervisión de operaciones en zona, asegurando estándares de calidad y eficiencia operativa.
+        </p>
+      </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="col-12">
+      <div class="glass-card p-4">
+        <div class="d-flex justify-content-between align-items-start mb-3">
+          <div>
+            <h3 class="mb-1">Logística y Operaciones</h3>
+            <p class="text-primary fw-600 mb-0">Jimenez Maña</p>
+          </div>
+          <span class="badge-tech">Gestión</span>
+        </div>
+        <p class="text-muted">
+          Recepción, organización y derivación estratégica de material, optimizando la cadena de suministro interna.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
-<button class="btn btn-secondary mt-3" [routerLink]="['/']">← Volver al Inicio</button>
-
-

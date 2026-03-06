@@ -1,59 +1,32 @@
-# MiCvAngular
+# Portfolio Interactivo - Aaron
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
+Este es un Currículum Vitae interactivo desarrollado con **Angular 20**, diseñado para ofrecer una experiencia visual moderna, fluida y profesional. El proyecto destaca habilidades de desarrollo frontend, diseño de interfaces (UI/UX) y organización de código escalable.
 
-## Development server
+## 🚀 Características Principales
 
-To start a local development server, run:
+- **Diseño Glassmorphism**: Estética moderna con efectos de desenfoque y transparencias.
+- **Totalmente Responsivo**: Adaptado para una visualización perfecta en móviles, tablets y escritorio.
+- **Navegación SPA**: Cambio de secciones instantáneo sin recarga de página utilizando Angular Router.
+- **Animaciones Suaves**: Micro-interacciones y transiciones que mejoran la experiencia de usuario.
+- **Arquitectura Basada en Componentes**: Código limpio, modular y fácil de mantener.
 
-```bash
-ng serve
-```
+## 🛠️ Tecnologías
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Para un detalle completo de las tecnologías utilizadas, consulta el archivo [TECNOLOGIAS.md](./TECNOLOGIAS.md).
 
-## Code scaffolding
+- **Framework**: Angular 20
+- **Lenguaje**: TypeScript
+- **Estilos**: CSS3 con variables personalizadas y Bootstrap 5
+- **Tipografía**: Google Fonts (Inter)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 💻 Instalación y Uso
 
-```bash
-ng generate component component-name
-```
+1.  Clona este repositorio.
+2.  Instala las dependencias: `npm install`.
+3.  Inicia el servidor de desarrollo: `npm start`.
+4.  Abre `http://localhost:4200` en tu navegador.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📄 Contacto
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Email**: abaecar.code@gmail.com
+- **GitHub**: [github.com/abaecar.code](https://github.com/abaecar.code)

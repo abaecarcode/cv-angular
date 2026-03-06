@@ -1,15 +1,50 @@
-<div class="container mt-4">
-  <h2 class="mb-4">Formación</h2>
-  <ul class="list-group">
-    <li class="list-group-item">
-      <strong>E.S.O</strong> - I.E.S NICOLAS COPERNICO
-    </li>
-    <li class="list-group-item">
-      <strong>Bachillerato de las Ciencias Sociales</strong> - SAN FULGENCIO
-    </li>
-    <li class="list-group-item">
-      <strong>C1</strong> - Chosmoschool
-    </li>
-  </ul>
+<div class="container py-5 animate-fade-in">
+  <div class="d-flex justify-content-between align-items-center mb-5">
+    <h1 class="display-5 mb-0">Formación Académica</h1>
+    <a [routerLink]="['/']" class="btn-secondary-premium">← Volver</a>
+  </div>
+
+  <div class="row g-4">
+    <!-- Item 1 -->
+    <div class="col-md-6">
+      <div class="glass-card p-4 h-100">
+        <span class="badge-tech mb-3">Secundaria</span>
+        <h3 class="mb-1">E.S.O</h3>
+        <p class="text-primary fw-600 mb-3">I.E.S NICOLAS COPERNICO</p>
+        <p class="text-muted small">Título de Educación Secundaria Obligatoria.</p>
+      </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="col-md-6">
+      <div class="glass-card p-4 h-100">
+        <span class="badge-tech mb-3">Post-obligatoria</span>
+        <h3 class="mb-1">Bachillerato de CCSS</h3>
+        <p class="text-primary fw-600 mb-3">SAN FULGENCIO</p>
+        <p class="text-muted small">Bachillerato enfocado en Ciencias Sociales y Humanidades.</p>
+      </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="col-md-6">
+      <div class="glass-card p-4 h-100">
+        <span class="badge-tech mb-3">Idiomas</span>
+        <h3 class="mb-1">Certificación C1</h3>
+        <p class="text-primary fw-600 mb-3">Chosmoschool</p>
+        <p class="text-muted small">Nivel Avanzado de competencia lingüística acreditado.</p>
+      </div>
+    </div>
+
+    <!-- Item 4 (Current) -->
+    <div class="col-md-6">
+      <div class="glass-card p-4 h-100 border-primary border-opacity-25">
+        <span class="badge-tech mb-3"
+          style="background: rgba(16, 185, 129, 0.1); color: #10b981; border-color: rgba(16, 185, 129, 0.2);">En
+          Curso</span>
+        <h3 class="mb-1">Grado Superior DAM</h3>
+        <p class="text-primary fw-600 mb-3">Desarrollo de Aplicaciones Multiplataforma</p>
+        <p class="text-muted small">Especialización en creación de software multiplataforma y gestión de sistemas.</p>
+      </div>
+    </div>
+  </div>
 </div>
-<button class="btn btn-secondary mt-3" [routerLink]="['/']">← Volver al Inicio</button>

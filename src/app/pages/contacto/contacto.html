@@ -1,20 +1,76 @@
-<div class="container mt-4">
-  <h2 class="mb-4">Contacto</h2>
-  <div class="d-flex align-items-center gap-4 mb-3">
-    
-    <div>
-      <h3>Aaron</h3>
-      <p>Actualmente cursando 1 Desarrollo de aplicaciones multiplataforma</p>
-    </div>
+<div class="container py-5 animate-fade-in">
+  <div class="d-flex justify-content-between align-items-center mb-5">
+    <h1 class="display-5 mb-0">Contacto</h1>
+    <a [routerLink]="['/']" class="btn-secondary-premium">← Volver</a>
   </div>
 
-  <ul class="list-group">
-    <li class="list-group-item">Email: abaecar.code"&#64;"gmail.com</li>
-    <li class="list-group-item">Teléfono: 662956212</li>
-    <li class="list-group-item">GitHub: <a href="https://github.com/abaecar.code" target="_blank">github.com/abaecar.code</a></li>
-  </ul>
-  <button class="btn btn-secondary mt-3" [routerLink]="['/']">← Volver al Inicio</button>
+  <div class="row g-5">
+    <!-- Información Directa -->
+    <div class="col-lg-5">
+      <div class="glass-card p-4 h-100">
+        <h3 class="mb-4">¿Hablamos?</h3>
+        <p class="text-muted mb-5">
+          Estoy siempre abierto a nuevas oportunidades, colaboraciones en proyectos innovadores o simplemente para
+          charlar sobre tecnología.
+        </p>
+
+        <div class="d-flex align-items-center mb-4">
+          <div class="badge-tech p-3 me-3">📧</div>
+          <div>
+            <h6 class="mb-0">Email</h6>
+            <a href="mailto:abaecar.code@gmail.com"
+              class="text-decoration-none text-primary">abaecar.code&#64;gmail.com</a>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center mb-4">
+          <div class="badge-tech p-3 me-3">📱</div>
+          <div>
+            <h6 class="mb-0">Teléfono</h6>
+            <span class="text-muted">+34 662 95 62 12</span>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center">
+          <div class="badge-tech p-3 me-3">🌐</div>
+          <div>
+            <h6 class="mb-0">GitHub</h6>
+            <a href="https://github.com/abaecar.code" target="_blank"
+              class="text-decoration-none text-primary">github.com/abaecar.code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Formulario Visual (Place-holder funcional) -->
+    <div class="col-lg-7">
+      <div class="glass-card p-4">
+        <h3 class="mb-4">Enviame un mensaje</h3>
+        <form>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label small fw-bold text-muted">Nombre</label>
+              <input type="text" class="form-control bg-light border-0 py-2" placeholder="Tu nombre">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label small fw-bold text-muted">Email</label>
+              <input type="email" class="form-control bg-light border-0 py-2" placeholder="tu@email.com">
+            </div>
+            <div class="col-12">
+              <label class="form-label small fw-bold text-muted">Asunto</label>
+              <input type="text" class="form-control bg-light border-0 py-2" placeholder="¿En qué puedo ayudarte?">
+            </div>
+            <div class="col-12">
+              <label class="form-label small fw-bold text-muted">Mensaje</label>
+              <textarea class="form-control bg-light border-0 py-2" rows="4"
+                placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+            <div class="col-12 mt-4">
+              <button type="button" class="btn-premium w-100 py-3">Enviar Mensaje</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
-
-
-
